@@ -32,7 +32,7 @@ from torchaudio.transforms import AmplitudeToDB, MelSpectrogram
 warnings.simplefilter("ignore")
 
 
-train_df = pd.read_csv("../../input/birdclef-2023/train_metadata_2023.csv")
+train_df = pd.read_csv("../../input/birdclef-2023-draft/train_metadata_2023.csv")
 target_columns = ['abethr1',
  'abhori1',
  'abythr1',
